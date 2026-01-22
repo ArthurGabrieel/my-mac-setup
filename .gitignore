@@ -1,0 +1,49 @@
+# .gitignore para dotfiles ZSH
+
+# Arquivos do sistema macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Arquivos de cache
+*.cache
+*.log
+
+# Histórico do ZSH (contém comandos pessoais)
+.zsh_history
+
+# Cache do Oh My Zsh
+.oh-my-zsh/cache/
+
+# Arquivos de backup
+*.backup
+*.bak
+*.swp
+*.swo
+*~
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Node modules (caso tenha algum)
+node_modules/
+
+# Variáveis de ambiente sensíveis
+.env
+.env.local
+.env.*.local
+
+# Chaves SSH
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Credenciais
+*credentials*
+*secret*
+*token*
